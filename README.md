@@ -22,7 +22,6 @@ Tech Stack Used:
 3.Find the top 5 tracks with the highest energy values.
 
 --Analyze Tracks which have energetic tracks feel fast, loud, and noisy. 
-
 ----
 
 ## 🔥 SQL Analysis Highlights
@@ -47,3 +46,4 @@ group by 1)
 select album, highest_energy-lowest_energy as diffrences
 from diffrence
 order by 2 desc;
+---
