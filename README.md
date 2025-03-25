@@ -1,6 +1,8 @@
 # spotify_Data-Anaytiys
 Analysis spotify Exploratory Data Analysis (EDA) ,Find impact full inshights
 
+![spotify]()
+
 Downlaod Data from Github:https://github.com/najirh/najirh-Spotify-Data-Analysis-using-SQL/tree/main
 
 File :Spotify.csv
