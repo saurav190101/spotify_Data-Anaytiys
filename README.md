@@ -12,15 +12,18 @@ Tech Stack Used:
 ## 📊 Key Insights & Business Impact
 
 1.Count the total number of tracks by each artist.
+
 --Figure out artists which have highest  total track 
 
 2.Retrieve the track names that have been streamed on Spotify more than YouTube.
+
 --Analyze between spotify and youtube which one people like most to  stramed 
 
 3.Find the top 5 tracks with the highest energy values.
-Analyze Tracks which have energetic tracks feel fast, loud, and noisy. 
 
----
+--Analyze Tracks which have energetic tracks feel fast, loud, and noisy. 
+
+----
 
 ## 🔥 SQL Analysis Highlights
 
