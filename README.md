@@ -42,8 +42,8 @@ with diffrence as(
 select album, max(energy) highest_energy,min(energy)as 
 lowest_energy from spotify
 group by 1)
-
 select album, highest_energy-lowest_energy as diffrences
 from diffrence
 order by 2 desc;
+
 ---
