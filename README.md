@@ -28,18 +28,18 @@ Tech Stack Used:
 
 ## 🔥 SQL Analysis Highlights
 
---Find the top 3 most-viewed tracks for each artist using window functions.
-
+**Find the top 3 most-viewed tracks for each artist using window functions.**
+```
 select * from (
 select artist,track,sum(views) total_views
 ,dense_rank()over(partition by artist order by sum(views)desc ) as drn 
 from spotify 
 group by 1,2
 ) where drn between 1 and 3;
+```
 
-
---calculate the difference between the highest and lowest energy values for tracks in each album.
-
+**calculate the difference between the highest and lowest energy values for tracks in each album.**
+```
 with diffrence as(
 select album, max(energy) highest_energy,min(energy)as 
 lowest_energy from spotify
@@ -47,5 +47,5 @@ group by 1)
 select album, highest_energy-lowest_energy as diffrences
 from diffrence
 order by 2 desc;
-
+```
 ---
