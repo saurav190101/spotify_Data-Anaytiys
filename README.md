@@ -38,7 +38,8 @@ CREATE TABLE spotify (
 File :Spotify.csv
 
 
-Tech Stack Used:
+**Tech Stack Used:**
+
 ***SQL:** PostgreSQL, Joins, CTEs, Window Functions, Aggregations 
 
 ## 📊 Key Insights & Business Impact
