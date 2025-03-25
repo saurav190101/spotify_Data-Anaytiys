@@ -38,7 +38,7 @@ CREATE TABLE spotify (
 File :Spotify.csv
 
 
-**Tech Stack Used:**
+:bar_chart:**Tech Stack Used:**
 
 ***SQL:** PostgreSQL, Joins, CTEs, Window Functions, Aggregations 
 
