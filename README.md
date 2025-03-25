@@ -5,7 +5,7 @@ Downlaod Data from Github:https://github.com/najirh/najirh-Spotify-Data-Analysis
 
 ![spotify](https://github.com/saurav190101/spotify_Data-Anaytiys/blob/main/spotify.png)
 
-create Table
+**create Table**
 ```
 CREATE TABLE spotify (
     artist VARCHAR(255),
@@ -34,8 +34,6 @@ CREATE TABLE spotify (
     most_played_on VARCHAR(50)
 );
 ```
-
-Downlaod Data from Github:https://github.com/najirh/najirh-Spotify-Data-Analysis-using-SQL/tree/main
 
 File :Spotify.csv
 
