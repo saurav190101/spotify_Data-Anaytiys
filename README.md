@@ -55,6 +55,7 @@ File :Spotify.csv
 3.Find the top 5 tracks with the highest energy values.
 
 --Analyze Tracks which have energetic tracks feel fast, loud, and noisy. 
+
 ----
 
 ## 🔥 SQL Analysis Highlights
